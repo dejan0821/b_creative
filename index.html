@@ -6,8 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B Creative</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preload" href="banner.jpg" as="image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div class="b-creative">
+        <header>
+            <nav class="navbar-top">
+                <div class="container-icon">
+                    <a href="#">
+                        <img class="b-logo" src="HEADER/logo b-creative-01.svg">
+                    </a>
+                </div>
+                <ul class="navbar-list" id="nav-list">
+                    <li class="navbar-list-item">
+                        <a href="#">POČETNA</a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="#">O NAMA</a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="#">KONTAKT</a>
+                    </li>
+                    <li class="navbar-list-item" id="search-icon">
+                        <a href="#"><i class="fa fa-fw fa-search" onclick="searchB(true)"></i></a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <input required type="text" class="search-nav" name="search" id="search-box" placeholder="Traži">
+                    </li>
+                    <li class="navbar-list-item" id="search-button">
+                        <button class="nav-btn" onclick="goSearch()">KRENI</button>
+                    </li> 
+                </ul>
+                
+            </nav>
+            <a href="#"><div class="menu" id="menu-btn" onclick="toggleButton()">
+                <div class="menu-list"></div>
+                <div class="menu-list"></div>
+                <div class="menu-list"></div>
+            </div></a>
+
+         
+        
+
+        <div class="banner" style="background-image: linear-gradient(45deg,
+         rgba(243, 89, 35, 0.75),
+         rgba(220, 233, 30, 0.75)), url('banner.jpg')">
+            <div class="banner-inner">
+                <h2>DIZAJNIRAMO NAJBOLJE</h2>
+                <h1>WEB STRANICE</h1>
+                <a href="#" class="btn">Kontaktiraj nas!</a>
+
+        </div>
+    </header>
+
+
+
+</div>
     
 
     <script src="JS/script.js"></script>
