@@ -8,14 +8,31 @@
 
 
 @font-face {
-    font-family: roboto;
-    src: url(/Roboto/Roboto-Regular.ttf);
+    font-family: roboto-medium;
+    src: url(../Roboto/Roboto-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: roboto-black;
+    src: url(../Roboto/Roboto-Black.ttf);
+  }
+
+  @font-face {
+    font-family: roboto-bold;
+    src: url(../Roboto/Roboto-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: roboto-regular;
+    src: url(../Roboto/Roboto-Regular.ttf);
   }
 
   @font-face {
     font-family: archivo;
     src: url(../Archivo_Black/ArchivoBlack-Regular.ttf);
   }
+
+  
 
 .navbar-top {
    
@@ -26,7 +43,7 @@
     justify-content: space-evenly;
     align-items: center;
     font-size: 22px;
-    font-family: roboto;
+    font-family: roboto-medium;
     font-weight: bolder; 
 }
 
@@ -183,7 +200,7 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
-    position: relative;
+   
     
 }
 
@@ -338,9 +355,126 @@ font-weight: bolder;
         }
     }
 
+/*About us */
 
+.about-us-section {
+    margin:auto;
+}
 
+.about-us-section .about-us-title {
+    margin-top: 120px;
+    margin-bottom: 33px;
+    text-align: center;
+    letter-spacing: 6px;
+    font-family: roboto-black;
+    font-size: 27px;
+   
+}
 
+.title-underline {
+    width: 140px;
+    height: 7px;
+    margin: auto;
+    background: linear-gradient(to right, #ee5c23, #faa912);
+}
+
+.about-us-section > .about-us-section-info {
+    width: 40%;
+    font-family: roboto-medium;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  
+}
+
+.section-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.about-us-icon-container {
+    position: relative;
+    width: 338px;
+    height: 338px;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.icon-about-container {
+    margin:auto;
+    width: 130px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 480px;
+    border:1px solid black;
+    border-radius: 100px;
+    
+}
+
+ .first-icon {  
+    background-image: url(../ONAMA/developer.svg);
+    background-size: 55px;
+    
+    
+    
+}
+ .second-icon {    
+    background-image: url(../ONAMA/branding.svg);
+    background-size: 55px;
+    
+}
+.third-icon {    
+    background-image: url(../ONAMA/digital-marketing.svg); 
+    background-size: 45px;
+}
+
+.title-about {
+    margin-top: 25px;
+    font-family: roboto-medium;
+    letter-spacing: 2px;
+    font-size: 15px;
+   
+}
+
+.icon-underline {
+    width: 70px;
+    height: 3px;
+    margin: auto;
+    background: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#icon-under {
+    display: none;
+    width: 70px;
+    height: 3px;
+    margin: auto;
+    background: linear-gradient(to right, #ee5c23, #faa912);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.about-paragraph {
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 25px;
+    font-family: roboto-medium;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.developer {
+    background-color: #f35923;
+}
 
 
 
