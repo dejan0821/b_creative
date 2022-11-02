@@ -411,29 +411,10 @@ font-weight: bolder;
     margin:auto;
     width: 130px;
     height: 130px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 480px;
-    border:1px solid black;
+    border: 1px solid black;
     border-radius: 100px;
+    position:relative;
     
-}
-
- .first-icon {  
-    background-image: url(../ONAMA/developer.svg);
-    background-size: 55px;
-    
-    
-    
-}
- .second-icon {    
-    background-image: url(../ONAMA/branding.svg);
-    background-size: 55px;
-    
-}
-.third-icon {    
-    background-image: url(../ONAMA/digital-marketing.svg); 
-    background-size: 45px;
 }
 
 .title-about {
@@ -453,15 +434,6 @@ font-weight: bolder;
     margin-bottom: 15px;
 }
 
-#icon-under {
-    display: none;
-    width: 70px;
-    height: 3px;
-    margin: auto;
-    background: linear-gradient(to right, #ee5c23, #faa912);
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
 
 .about-paragraph {
     padding-right: 30px;
@@ -472,9 +444,26 @@ font-weight: bolder;
     letter-spacing: 1px;
 }
 
-.developer {
-    background-color: #f35923;
+.about-icon {
+    width: 60px;
+    height: 60px;
+    position:relative;
+    top: 30px; 
+   
+    
 }
 
+.about-us-icon-container:hover .icon-about-container {
+    border-color: #f35923;
+    background-color: #f35923;
+    
+}
+.about-us-icon-container:hover h3 {
+    color:#f35923;
+}
+
+.about-us-icon-container:hover .icon-underline {
+    background: linear-gradient(to right, #ee5c23, #faa912);
+}
 
 
