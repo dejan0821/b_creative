@@ -3,15 +3,16 @@ function toggleButton() {
     var navList = document.getElementById("nav-list");
     if (navList.style.display === "block") {
         navList.style.display = "none";
-      } else {
+      } 
+      else {
         navList.style.display = "block";
       }
     }
 
-    function searchB(inputS) {
-        var searchBox = document.getElementById("search-box");
-        var searchIcon = document.getElementById("search-icon");
-        var searchButton = document.getElementById("search-button");
+function searchB(inputS) {
+    var searchBox = document.getElementById("search-box");
+    var searchIcon = document.getElementById("search-icon");
+    var searchButton = document.getElementById("search-button");
     
     if(inputS){
       searchIcon.style.display = "none";
@@ -27,7 +28,8 @@ alert("Unesite pojam.");
 return false
 }
 else { alert("Traženi pojam nije pronađen. Pokušajte ponovo.");
-return true }
+return true 
+}
 }
 
   

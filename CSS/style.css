@@ -25,9 +25,9 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 25px;
+    font-size: 22px;
     font-family: roboto;
-    font-weight: bolder;
+    font-weight: bolder; 
 }
 
 .navbar-top .fa-search {
@@ -35,9 +35,7 @@
 }
 
 .b-logo {
-    width: 300px;
-   
-   
+    width: 300px;  
 }
 
 .navbar-top a {
@@ -50,7 +48,7 @@
 }
 
 .navbar-list {
-    list-style-type: none;  
+    list-style-type: none;    
 }
 
 .navbar-list .navbar-list-item {
@@ -61,7 +59,6 @@
 .menu {
     display: none;
 }
-
 
 
 .menu-list {
@@ -96,6 +93,7 @@
     height:35px;
     width:70px;
     
+    
 }
 #search-button {
     display: none;
@@ -108,7 +106,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 863px) {
     .navbar-top {
         flex-direction: column;
         position: relative;
@@ -131,6 +129,7 @@
         width: 100%;
         text-align: center;
         display: none;
+        font-size: 18px;
         
     }
 
@@ -149,9 +148,14 @@
         padding-bottom: 15px;
     }
 
+    .navbar-top .fa-search {
+        text-align: center;
+        padding-left: 0px;
+    }
+
 }
 
-@media screen and (max-width: 1043px) {
+@media screen and (max-width: 1162px) {
     .navbar-top {
         flex-direction: column;
         position: relative;
@@ -263,6 +267,8 @@ font-weight: bolder;
 
 @media screen and (max-width: 768px) {
     .banner {
+        height:90vh;
+            background-size: 1650px;
         background-position: 31% 50%;   
     }
 
@@ -278,6 +284,8 @@ font-weight: bolder;
 
     @media screen and (max-width: 732px) {
         .banner {
+            height:87vh;
+            background-size: 1600px;
             background-position: 31% 50%;        
         }
 
@@ -293,6 +301,8 @@ font-weight: bolder;
 
     @media screen and (max-width: 584px) {
         .banner {
+            height:77vh;
+            background-size: 1400px;
             background-position: 31% 50%;        
         }
         .banner h1 {
@@ -307,21 +317,24 @@ font-weight: bolder;
 
     @media screen and (max-width: 539px) {
         .banner {
-            background-position: 31% 50%;        
+           
+            height:65vh;
+            background-size: 1180px;   
+              
         }
 
         .banner h1 {
-            font-size: 3em;  
+            font-size: 2.8em;  
         }
 
         .banner h2 {
             font-size: 1.2em;
-            letter-spacing: 3.5px;
+            letter-spacing: 3px;
         }
 
         .banner .btn {
-            width: 200px;
-            font-size: 1.3em;
+            width: 180px;
+            font-size: 1.1em;
         }
     }
 
