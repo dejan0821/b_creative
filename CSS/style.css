@@ -108,10 +108,9 @@
     border:none;
     border-radius: 5px;
     height:35px;
-    width:70px;
-    
-    
+    width:70px;    
 }
+
 #search-button {
     display: none;
 }
@@ -146,8 +145,7 @@
         width: 100%;
         text-align: center;
         display: none;
-        font-size: 18px;
-        
+        font-size: 18px;   
     }
 
     .navbar-list .navbar-list-item {
@@ -155,8 +153,6 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
-    
 
     .b-logo {
         float:left;
@@ -465,5 +461,56 @@ font-weight: bolder;
 .about-us-icon-container:hover .icon-underline {
     background: linear-gradient(to right, #ee5c23, #faa912);
 }
+
+/* PORTFOLIO */
+
+.portfolio-title {
+    margin-top: 27px;
+    margin-bottom: 33px;
+    text-align: center;
+    letter-spacing: 6px;
+    font-family: roboto-black;
+    font-size: 27px;
+}
+
+.button-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+
+}
+
+.buttoners {
+    width: 214px;
+    height: 100px;
+    position: relative;
+    
+}
+
+.buttoners > button {
+    height:50px;
+    width: 160px;
+    background-color: white;
+    color: black;
+    font-family: roboto-medium;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-top: 5px;
+    border: 2px solid #c8c8c8;
+    position: absolute;
+    left: 12%;
+    
+}
+
+.buttoners > button:hover {
+    cursor: pointer;
+    background-color:#f35923;
+    color: white;
+    border-color: #f35923;
+}
+
+
 
 
