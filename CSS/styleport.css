@@ -1,0 +1,96 @@
+/* PORTFOLIO */
+
+.portfolio-title {
+    margin-top: 27px;
+    margin-bottom: 33px;
+    text-align: center;
+    letter-spacing: 6px;
+    font-family: roboto-black;
+    font-size: 27px;
+}
+
+.button-container {
+    margin-top: 40px;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+
+}
+
+.buttoners {
+    width: 214px;
+    height: 75px;
+    position: relative;
+    
+}
+
+.buttoners > button {
+    height:50px;
+    width: 160px;
+    background-color: white;
+    color: black;
+    font-family: roboto-medium;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-top: 5px;
+    border: 2px solid #c8c8c8;
+    position: absolute;
+    left: 12%;   
+}
+
+.buttoners > button:hover {
+    cursor: pointer;
+    background-color:#f35923;
+    color: white;
+    border-color: #f35923;
+}
+
+@media screen and (max-width: 880px) {
+    .buttoners {
+    width: 160px;
+    height:55px;
+}
+    .buttoners > button {
+    height:40px;
+    width: 128px;
+    font-size: 12px;
+}
+}
+
+.images-container {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;   
+    flex-wrap: wrap;   
+}
+    
+.port-img img {
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+
+.image-container-four {
+    display: flex;
+    position: relative;
+    flex-direction: row;    
+}
+
+@media screen and (max-width: 1919px) {
+    .images-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .image-container-three {
+        justify-content: center;
+    }
+    .image-container-four {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

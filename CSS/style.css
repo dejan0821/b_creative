@@ -5,7 +5,9 @@
    
 }
 
-
+.b-creative {
+   
+}
 
 @font-face {
     font-family: roboto-medium;
@@ -182,12 +184,13 @@
     .b-logo {
         width: 250px;
     }
-}
+} 
 
 /*Banner */
 
 .banner {
-    width: 100vw;
+    
+    width: auto;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -254,7 +257,6 @@ font-weight: bolder;
     .banner h1 {
         font-size: 6.5em;    
     }
-
     .banner h2 {   
         font-size: 2.2em;
         letter-spacing: 10px;
@@ -280,9 +282,9 @@ font-weight: bolder;
 
 @media screen and (max-width: 768px) {
     .banner {
-        height:90vh;
+        height:82vh;
             background-size: 1650px;
-        background-position: 31% 50%;   
+           
     }
 
     .banner h1 {
@@ -297,9 +299,9 @@ font-weight: bolder;
 
     @media screen and (max-width: 732px) {
         .banner {
-            height:87vh;
+            height:80vh;
             background-size: 1600px;
-            background-position: 31% 50%;        
+                   
         }
 
         .banner h1 {
@@ -314,9 +316,8 @@ font-weight: bolder;
 
     @media screen and (max-width: 584px) {
         .banner {
-            height:77vh;
-            background-size: 1400px;
-            background-position: 31% 50%;        
+            height:70vh;
+            background-size: 1400px;       
         }
         .banner h1 {
             font-size: 3.5em;  
@@ -330,10 +331,8 @@ font-weight: bolder;
 
     @media screen and (max-width: 539px) {
         .banner {
-           
-            height:65vh;
-            background-size: 1180px;   
-              
+            height:59vh;
+            background-size: 1180px;     
         }
 
         .banner h1 {
@@ -464,52 +463,15 @@ font-weight: bolder;
 
 /* PORTFOLIO */
 
-.portfolio-title {
-    margin-top: 27px;
-    margin-bottom: 33px;
-    text-align: center;
-    letter-spacing: 6px;
-    font-family: roboto-black;
-    font-size: 27px;
-}
 
-.button-container {
-    margin-top: 40px;
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    
 
-}
 
-.buttoners {
-    width: 214px;
-    height: 100px;
-    position: relative;
-    
-}
 
-.buttoners > button {
-    height:50px;
-    width: 160px;
-    background-color: white;
-    color: black;
-    font-family: roboto-medium;
-    letter-spacing: 1px;
-    font-size: 14px;
-    padding-top: 5px;
-    border: 2px solid #c8c8c8;
-    position: absolute;
-    left: 12%;
-    
-}
 
-.buttoners > button:hover {
-    cursor: pointer;
-    background-color:#f35923;
-    color: white;
-    border-color: #f35923;
-}
+
+
+
+
 
 
 
