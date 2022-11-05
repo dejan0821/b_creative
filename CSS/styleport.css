@@ -70,7 +70,7 @@
     
 .port-img img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto; 
 }
 
@@ -80,21 +80,22 @@
     flex-direction: row;    
 }
 
-
+/*IMAGE LAYERS */
 
 .port-img {
-    position: relative;
-    
+   position: relative;      
 }
 
 .port-img .small-box {
-    width: 446px;
-    height: 306px;
+    /*width: 446px;
+    height: 306px;*/
+    width: calc(100% - 34px);
+    height: calc(100% - 34px);
     position: absolute;
+    padding: 110px 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 120px 0;
     text-align: center;
     color: white;
     background: linear-gradient(45deg,
@@ -103,13 +104,15 @@
      }
 
 .port-img .medium-box {
-    width: 446px;
-    height: 646px;
+    /*width: 446px;
+    height: 646px;*/
+    width: calc(100% - 34px);
+    height: calc(100% - 34px);
     position: absolute;
+    padding: 290px 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 300px 0;
     text-align: center;
     color: white;
     background: linear-gradient(45deg,
@@ -118,21 +121,29 @@
      }
 
 .port-img .large-box {
-    width: 926px;
-    height: 306px;
+    /*width: 926px;
+    height: 306px;*/
+    width: calc(100% - 34px);
+    height: calc(100% - 34px);
     position: absolute;
+    padding: 110px 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 120px 0;
     text-align: center;
     color: white;
     background: linear-gradient(45deg,
     rgba(238, 92, 35, 0.75),
     rgba(250, 169, 18, 0.75));
-         }
+    
+    }
+
+    
+         
 
     .brand {
+        display: grid;
+        place-items: center;
         font-family: roboto-black;
         font-size: 28px;
         letter-spacing: 3px;
@@ -148,6 +159,8 @@
         text-shadow: 0px 2px 0px rgba(207,16,16,0.89)
     }
 
+   
+/*
     .info-box {
         opacity: 0;
         transition: opacity 0.25s;
@@ -156,28 +169,102 @@
     .info-box:hover {
         opacity: 1;
     }
-
+*/
     @media screen and (max-width: 1919px) {
         .images-container {
             justify-content: center;
             flex-wrap: wrap;
-            
+        }    
         }
-    }
+    
     
     @media screen and (max-width: 960px) {
-       
         .image-container-three {
-            justify-content: center;
-            
+            justify-content: center;   
         }
         .image-container-four {
             flex-wrap: wrap;
             justify-content: center;
-        }
+        }   
+    }
+    @media screen and (max-width: 926px) { 
+    .shwamhouse-img img {
+    width: 926px;
+    height: 306px;
+    object-fit: cover;
+    
+    }
+}
+
+   
+    
+      
+
+    /*Counter*/
+
+    .counter{
+        width: auto;
+    height: 100%;
+        padding-top: 90px;
+        padding-bottom: 40px;
+        display: flex;
+        background-color: #f35923;
+        justify-content:center;
+        flex-wrap: wrap;
+        
+         }
+
+         
+
+    .count-container {
+        width: 280px;
+        height: 150px;
+        position: relative;
+        text-align: center;
        
     }
 
+    .count-container .number {
+        font-family: roboto-black;
+        font-size: 60px;
+        color: white;
+        letter-spacing: 8px;
+        display:grid;
+        padding-top: 15px;
     
+        
+        
+
+    }
+
+    .count-container .text-count {
+        font-family: roboto-regular;
+        font-size: 17px;
+        color: white;
+        letter-spacing: 3px;
+        display:grid;
+
+    }
+
+    @media screen and (max-width: 1130px) {
+        
+        .count-container {
+            width: 200px;
+            height: 150px;
+        }
+
+    }
+
+    @media screen and (max-width: 800px) {
+        .count-container {
+            width: 280px;
+            height: 150px;
+        }
+    }
+
+
+    
+
+         
 
     
