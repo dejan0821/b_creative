@@ -1,5 +1,6 @@
 /* PORTFOLIO */
 
+
 .portfolio-title {
     margin-top: 27px;
     margin-bottom: 33px;
@@ -65,8 +66,30 @@
     display: flex;
     justify-content:center;    
     flex-wrap: nowrap;  
+}
+
+.portfolio-section > .images-container {
     
 }
+/* DISPLAY */
+
+#portfolio-all {
+    display: flex;
+}
+
+#portfolio-logo {
+    display: none;
+}
+
+#portfolio-web {
+    display: none;
+}
+
+#portfolio-development {
+    display: none;
+}
+
+/* DISPLAY kraj */
     
 .port-img img {
     display: block;
@@ -135,11 +158,7 @@
     background: linear-gradient(45deg,
     rgba(238, 92, 35, 0.75),
     rgba(250, 169, 18, 0.75));
-    
     }
-
-    
-         
 
     .brand {
         display: grid;
@@ -149,7 +168,6 @@
         letter-spacing: 3px;
         margin-bottom: 10px;
         text-shadow: 0px 2px 0px rgba(207,16,16,0.89)
-
     }
 
     .service-type {
@@ -159,8 +177,8 @@
         text-shadow: 0px 2px 0px rgba(207,16,16,0.89)
     }
 
-   
-/*
+/* OPACITY PORTFOLIO */
+
     .info-box {
         opacity: 0;
         transition: opacity 0.25s;
@@ -169,14 +187,15 @@
     .info-box:hover {
         opacity: 1;
     }
-*/
+
+    /* OPACITY PORTFOLIO kraj */
+
     @media screen and (max-width: 1919px) {
         .images-container {
             justify-content: center;
             flex-wrap: wrap;
         }    
         }
-    
     
     @media screen and (max-width: 960px) {
         .image-container-three {
@@ -187,26 +206,105 @@
             justify-content: center;
         }   
     }
-    @media screen and (max-width: 926px) { 
-    .shwamhouse-img img {
-    width: 926px;
-    height: 306px;
-    object-fit: cover;
-    
+
+    @media screen and (max-width: 960px) { 
+        .shwamhouse-img img {
+            width: 960px;
+            height: 340px;
+            object-fit: cover;
     }
 }
 
-   
+@media screen and (max-width: 480px) { 
+    .how-img img {
+        width: 480px;
+        height: 680px;
+        object-fit: cover;
+}
+    .tsif-img img {
+        width: 480px;
+        height: 680px;
+        object-fit: cover;
+    }
+
+    .app-img img {
+        width: 480px;
+        height: 680px;
+        object-fit: cover;
+    }
+
+    .plum-img img {
+        width: 480px;
+        height: 340px;
+        object-fit: cover;
+    }
+
+    .rolex-img img {
+        width: 480px;
+        height: 340px;
+        object-fit: cover;
+    }
+
+    .toyota-img img {
+        width: 480px;
+        height: 340px;
+        object-fit: cover;
+    }
+
+    .bcreative-img img {
+        width: 480px;
+        height: 340px;
+        object-fit: cover;
+    }
+}
+
+
+/* LOGO image container */
+
+    .images-container-logo { 
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content:center;    
+        flex-wrap: wrap;  
+    }
+
+    /* WEB image container */
+
+    .images-container-web { 
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content:center;    
+        flex-wrap: wrap;     
+    }
+
+    .web-container-two {
+        display: flex;
+        flex-wrap: wrap;   
+        justify-content:center;         
+    }
+
+    /* DEVELOPMENT image container */
+
+    .images-container-development { 
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content:center;      
+    }
+    
     
       
 
     /*Counter*/
+    
 
     .counter{
         width: auto;
-    height: 100%;
+        height: 100%;
         padding-top: 90px;
-        padding-bottom: 40px;
+        padding-bottom: 55px;
         display: flex;
         background-color: #f35923;
         justify-content:center;
@@ -230,7 +328,7 @@
         color: white;
         letter-spacing: 8px;
         display:grid;
-        padding-top: 15px;
+        padding-bottom: 12px;
     
         
         
@@ -261,6 +359,8 @@
             height: 150px;
         }
     }
+
+    
 
 
     

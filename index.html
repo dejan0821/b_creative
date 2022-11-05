@@ -128,20 +128,20 @@
 
         <div class="button-container">
             <div class="buttoners">
-            <button>SVI RADOVI</button>
+            <button onclick="allWork(true)">SVI RADOVI</button>
             </div>
             <div class="buttoners">
-            <button>LOGO DIZAJN</button>
+            <button onclick="logoWork(true)">LOGO DIZAJN</button>
             </div>
             <div class="buttoners">
-            <button>WEB DIZAJN</button>
+            <button onclick="webWork(true)">WEB DIZAJN</button>
             </div>
             <div class="buttoners">
-            <button>DEVELOPMENT</button>
+            <button onclick="developmentWork(true)">DEVELOPMENT</button>
             </div>
         </div>
 
-        <div class="images-container">
+        <div class="images-container" id="portfolio-all">
             <div class="image-container-one">
                <div class="port-img tsif-img">
                 <img src="PORTFOLIO/tsif-logo-dizajn-680x480px.jpg">
@@ -186,20 +186,84 @@
                 <img src="PORTFOLIO/bcreative-web-dizajn-web-development-340x480.jpg">
                 <div class="info-box small-box"><span class="brand">B CREATIVE</span><span class="service-type">WEB DIZAJN</span></div>
             </div>
-            </div> 
-            </div>
+            </div> <!-- Image container five-->
+            </div> <!-- Image container four-->
            
             
             
             
+        </div> <!-- Image container three-->
+</div>  <!-- Image container right-->
+ </div> <!-- Images container-->
+
+<!-- LOGO-->
+ <div class="images-container-logo" id="portfolio-logo">
+    <div class="logo-container-one">
+        <div class="port-img tsif-img">
+         <img src="PORTFOLIO/tsif-logo-dizajn-680x480px.jpg">
+         <div class="info-box medium-box"><span class="brand">TSIF</span><span class="service-type">LOGO DIZAJN</span></div>
+     </div>
+    </div>
+
+    <div class="logo-container-two">
+        <div class="port-img rolex-img">
+            <img src="PORTFOLIO/rolex-logo-dizajn-340x480px.jpg">
+            <div class="info-box small-box"><span class="brand">ROLEX</span><span class="service-type">LOGO DIZAJN</span></div>
         </div>
-</div>
- </div>
+        <div class="port-img toyota-img">
+            <img src="PORTFOLIO/toyota-logo-dizajn-340x480px.jpg">
+            <div class="info-box small-box"><span class="brand">TOYOTA</span><span class="service-type">LOGO DIZAJN</span></div>
+        </div>
 
+    </div> <!--Logo kontejner two kraj-->
 
-<!-- Counter-->
+              
+ </div> <!-- Images container Logo kraj-->
+
+ <!-- WEB -->
+ <div class="images-container-web" id="portfolio-web">
+    <div class="web-container-one">
+        <div class="port-img shwamhouse-img">
+            <img src="PORTFOLIO/shwamhouse-web-dizajn340x4960px.jpg">
+            <div class="info-box large-box"><span class="brand">SHWAM HOUSE</span><span class="service-type">WEB DIZAJN</span></div>
+        </div> 
+    
+<div class="web-container-two"> 
+   
+  
+        <div class="port-img how-img">
+            <img src="PORTFOLIO/how2fit-web-design-680x480px.jpg">
+            <div class="info-box medium-box"><span class="brand">HOW 2 FIT</span><span class="service-type">WEB DIZAJN</span></div>
+        </div>
+   
+
+    <div class="web-container-three">
+        <div class="port-img plum-img">
+            <img src="PORTFOLIO/plum-web-dizajn340x480px.jpg">
+            <div class="info-box small-box"><span class="brand">PLUM</span><span class="service-type">WEB DIZAJN</span></div>
+        </div>
+        <div class="port-img bcreative-img">
+            <img src="PORTFOLIO/bcreative-web-dizajn-web-development-340x480.jpg">
+            <div class="info-box small-box"><span class="brand">B CREATIVE</span><span class="service-type">WEB DIZAJN</span></div>
+        </div>
+    
+  </div> <!-- web container three kraj-->  
+</div> <!-- web container two kraj-->
+
+</div> <!-- web container one kraj-->
+ </div> <!--kontejner web kraj-->
+
+    <!-- DEVELOPMENT -->
+    <div class="images-container-development" id="portfolio-development">
+    <div class="port-img app-img">
+        <img src="PORTFOLIO/app-development-680x480px.jpg">
+        <div class="info-box medium-box"><span class="brand">APP</span><span class="service-type">DEVELOPMENT</span></div>
+    </div>
+    </div> <!--kontejner development kraj-->
+
+<!--Counter-->
 <div class="counter-section">
-<div class="counter">
+  <div class="counter">
 
     
     <div class="count-container">
@@ -226,11 +290,10 @@
      </div>
   
 
-</div>  
+</div>  <!--Counter section kraj-->
 
-
-</div>   <!--Portfolio section kraj-->
-    </div>  <!--Pocetak-->
+ </div>       <!--Portfolio section kraj-->
+    </div>    <!--Pocetak-->
     
 
     <script src="JS/script.js"></script>
