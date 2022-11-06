@@ -20,6 +20,11 @@
 
 }
 
+.btn-one {
+    display: flex;
+    flex-direction: row;
+}
+
 .buttoners {
     width: 214px;
     height: 75px;
@@ -60,6 +65,8 @@
 }
 }
 
+/* PORTFOLIO GALLERY */
+
 .images-container {
     width: auto;
     height: 100%;
@@ -68,9 +75,7 @@
     flex-wrap: nowrap;  
 }
 
-.portfolio-section > .images-container {
-    
-}
+
 /* DISPLAY */
 
 #portfolio-all {
@@ -115,7 +120,7 @@
     width: calc(100% - 34px);
     height: calc(100% - 34px);
     position: absolute;
-    padding: 110px 0;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -132,7 +137,7 @@
     width: calc(100% - 34px);
     height: calc(100% - 34px);
     position: absolute;
-    padding: 290px 0;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -149,7 +154,7 @@
     width: calc(100% - 34px);
     height: calc(100% - 34px);
     position: absolute;
-    padding: 110px 0;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -160,25 +165,42 @@
     rgba(250, 169, 18, 0.75));
     }
 
-    .brand {
+    .info-box .brand {
         display: grid;
         place-items: center;
         font-family: roboto-black;
         font-size: 28px;
         letter-spacing: 3px;
         margin-bottom: 10px;
-        text-shadow: 0px 2px 0px rgba(207,16,16,0.89)
+        text-shadow: 0px 2px 0px rgba(207,16,16,0.89);
+        
     }
 
-    .service-type {
+    .info-box .service-type {
         font-family: roboto-regular;
         font-size: 17px;
         letter-spacing: 2px;
-        text-shadow: 0px 2px 0px rgba(207,16,16,0.89)
+        text-shadow: 0px 2px 0px rgba(207,16,16,0.89);
+       
+  
     }
 
-/* OPACITY PORTFOLIO */
+    .medium-box > .brand {
+        padding-top: 290px;
+    }
 
+    .small-box > .brand {
+        padding-top: 110px;
+    }
+
+    .large-box > .brand {
+        padding-top: 110px;
+    }
+
+
+
+/* OPACITY PORTFOLIO */
+/*
     .info-box {
         opacity: 0;
         transition: opacity 0.25s;
@@ -217,46 +239,131 @@
 
 @media screen and (max-width: 480px) { 
     .how-img img {
-        width: 480px;
-        height: 680px;
-        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
 }
     .tsif-img img {
-        width: 480px;
-        height: 680px;
-        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 
     .app-img img {
-        width: 480px;
-        height: 680px;
-        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 
     .plum-img img {
-        width: 480px;
-        height: 340px;
-        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 
     .rolex-img img {
-        width: 480px;
-        height: 340px;
-        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 
     .toyota-img img {
-        width: 480px;
-        height: 340px;
-        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 
     .bcreative-img img {
-        width: 480px;
-        height: 340px;
-        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
     }
+
+    .shwamhouse-img img {
+        max-width: 100%;
+       max-height: 100%;
+        object-fit: cover;
+       
 }
+}
+
+@media screen and (max-width: 425px) {
+    .medium-box  .brand {
+        padding-top: 240px;
+        
+    }
+
+    .small-box  .brand {
+        padding-top: 110px;
+    }
+
+    .large-box  .brand {
+        padding-top: 110px;
+    }
+
+    .info-box .brand {
+        font-size: 25px;
+        letter-spacing: 3px;
+        margin-bottom: 9px;
+    }
+
+    .info-box .service-type {
+        font-family: roboto-regular;
+        font-size: 15px;
+        letter-spacing: 2px;
+}
+}
+
+@media screen and (max-width: 375px) {
+    .medium-box > .brand {
+        padding-top: 210px;
+    }
+
+    .small-box > .brand {
+        padding-top: 110px;
+    }
+
+    .large-box > .brand {
+        padding-top: 110px;
+    }
+    .info-box .brand {
+        font-size: 22px;
+        letter-spacing: 2px;
+        margin-bottom: 7px;
+    }
+    .info-box .service-type {
+        font-family: roboto-regular;
+        font-size: 13px;
+        letter-spacing: 2px; 
+}
+ }
+
+@media screen and (max-width: 320px) {
+    .medium-box > .brand {
+        padding-top: 190px;
+    }
+
+    .small-box > .brand {
+        padding-top: 110px;
+    }
+
+    .large-box > .brand {
+        padding-top: 110px;
+    }
+
+    .info-box .brand {
+        font-size: 19px;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+    }
+    .info-box .service-type {
+        font-family: roboto-regular;
+        font-size: 11px;
+        letter-spacing: 2px;
+}
+}
+
+
 
 
 /* LOGO image container */
