@@ -224,6 +224,16 @@
     color:black;
 }
 
+
+    .team-box {
+        opacity: 0;
+        transition: opacity 0.25s;
+    }
+
+    .team-box:hover {
+        opacity: 1;
+    }
+
 .team-member {
     display: inline-block;
     font-size: 16px;
@@ -262,6 +272,161 @@
     font-style: normal;
     padding-top: 14px;
 
+}
+
+/* KONTAKT */
+
+.contact-section {
+    margin: auto;
+    margin-bottom: 
+}
+
+.contact-section  .contact-title  {
+    padding-top: 100px;
+    padding-bottom: 25px; 
+    text-align: center;
+    letter-spacing: 6px;
+    font-family: roboto-black;
+    font-size: 27px;  
+}
+
+.contact-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 95px;   
+}
+
+.contact-container-one {
+    position: relative;
+    width: 840px;
+    text-align: center;
+}
+
+.contact-container-two {
+    position: relative;
+    width: 420px;
+    height: 530px;
+   flex-direction: column;
+    text-align: center;   
+}
+
+.address-container { 
+    margin:auto;
+    width: 350px;
+    height: 390px;
+    position:relative;
+    border: 1px solid white;
+}
+
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+.address-row {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    
+}
+
+.form-contact {
+    width: 770px;
+    margin: auto;
+}
+
+ input[type=text], input[type=email], input[type=textarea]   {
+        width: 100%;
+       
+        border: 1px solid black;
+        padding: 20px 20px 14px 20px;
+        margin-bottom: 42px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: black;
+        font-family: roboto-medium;
+}
+
+.input-field::placeholder {  
+    color: black;
+    opacity: 1; 
+      }
+
+input[type=textarea] {
+    padding-bottom: 145px;
+}
+.contact-btn {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    width:24%;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 20px 20px 14px 20px;
+    color: black;
+    border: 1px solid black;
+    font-family: roboto-medium;
+    background-color: white;
+}
+
+
+.address-icon {
+width: 80px;
+height: 80px;
+border: 2px solid black;
+border-radius: 50px;
+margin-right: 20px;
+}
+
+.address-icon img {
+    width: 35px;
+    margin: auto;
+    position:relative;
+    top: 20px; 
+}
+
+.plain-text {
+    text-align: left;
+    font-family: roboto-medium;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 827px) {
+    .form-contact {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    .form-contact {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 534px) {
+    .form-contact {
+        width: 400px;
+    }
+    .contact-btn {
+        font-size: 9px;   
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .form-contact {
+        width: 300px;
+    }
+
+    .contact-btn {
+        font-size: 6px;   
+    }
 }
 
 

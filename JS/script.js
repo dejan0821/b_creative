@@ -89,5 +89,13 @@ function allWork(y) {
 }
 
 
+function nameColor() {
+  var col = document.getElementById("name").value;
+  var asterisk = "*";
+  if (col == asterisk) {
+    col.style.color = "orange";
+  }
+}
 
+nameColor()
   
