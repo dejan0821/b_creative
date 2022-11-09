@@ -462,6 +462,7 @@ left: 25px;
 
 .footer-logo {
     width: 120px;  
+  
 }
 
 .footer-logo-right {
@@ -495,8 +496,8 @@ left: 25px;
     display: flex;
     flex-direction: row;
 justify-content: center;
-padding-top: 30px;
-padding-bottom: 30px;
+
+padding-bottom: 25px;
 font-family: roboto-regular;
 font-size: 17px;
 background-color: #0d0d0d;
@@ -515,7 +516,7 @@ font-weight:lighter;
     height:auto; 
     font-size: 13px;
     position:absolute;
-    left: 30px;
+    left: 35px;
     bottom: 0;
 }
 
@@ -532,18 +533,19 @@ font-weight:lighter;
 }
 
 .flex-package-three {
-    width: 500px;
+    width: 420px;
     height:auto;
     position: relative;
 }
 
 .digital-agency {
     position: absolute;
-    width: 400px;
+    width: 380px;
+    left: 12px;
     
 }
 .flex-package-two {
-    width: 190px;
+    width: 280px;
     height:auto;
     position: relative;
 }
