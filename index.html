@@ -16,7 +16,7 @@
    
 </head>
 <body>
-    <div class="b-creative">
+    <div class="b-creative" id="pocetna">
         <header>
             <nav class="navbar-top">
                 <div class="container-icon">
@@ -26,19 +26,19 @@
                 </div>
                 <ul class="navbar-list" id="nav-list">
                     <li class="navbar-list-item">
-                        <a href="#">POČETNA</a>
+                        <a href="#pocetna">POČETNA</a>
                     </li>
                     <li class="navbar-list-item">
-                        <a href="#">O NAMA</a>
+                        <a href="#o-nama">O NAMA</a>
                     </li>
                     <li class="navbar-list-item">
-                        <a href="#">PORTFOLIO</a>
+                        <a href="#portfol">PORTFOLIO</a>
                     </li>
                     <li class="navbar-list-item">
-                        <a href="#">BLOG</a>
+                        <a href="#blog-page">BLOG</a>
                     </li>
                     <li class="navbar-list-item">
-                        <a href="#">KONTAKT</a>
+                        <a href="#kontakt-page">KONTAKT</a>
                     </li>
                     <li class="navbar-list-item" id="search-icon">
                         <a href="#"><i class="fa fa-fw fa-search" onclick="searchB(true)"></i></a>
@@ -73,7 +73,7 @@
     </header>
     
 <!--O NAMA-->
-    <div class="about-us-section">
+    <div class="about-us-section" id="o-nama">
         <h2 class="about-us-title">MI SMO AGENCIJA KOJA DONOSI REZULTATE</h2>
         <div class="title-underline"></div>
 
@@ -127,7 +127,7 @@
     
 <!--PORTFOLIO-->
 
-     <div class="portfolio-section">
+     <div class="portfolio-section" id="portfol">
     <h2 class="portfolio-title">PORTFOLIO</h2>
         <div class="title-underline"></div>
 
@@ -306,7 +306,7 @@
     
  <!--BLOG-->
  
- <div class="blog-section">
+ <div class="blog-section" id="blog-page" >
     <h2 class="blog-title">BLOG</h2>
     <div class="title-underline"></div>
 
@@ -435,7 +435,7 @@
 
  <!--KONTAKT-->
 
- <div class="contact-section">
+ <div class="contact-section" id="kontakt-page">
 <h2 class="contact-title">KONTAKTIRAJTE NAS</h2>
     <div class="title-underline"></div>
     <div class="contact-flex-container"> 
@@ -460,9 +460,11 @@
     <div class="contact-container contact-container-two">
         <div class="address-container">
             <div class="address-row">
+                <div class="proba">  
                 <div class="address-icon">
                     <img class="add-icon" src="../B Creative/Kontakt ikonice/placeholder.png">
                 </div>
+            </div>
                 <div class="address-text">
                     <div class="plain-text">
                         ADRESA<br><br> Joseph T. Villanvera 129 North Street <br> Grand Rapids, MI 49546
@@ -471,8 +473,10 @@
             </div>
 
             <div class="address-row">
+                <div class="proba"> 
                 <div class="address-icon">
                     <img class="add-icon" src="../B Creative/Kontakt ikonice/email.png">
+                </div>
                 </div>
                 <div class="address-text">
                     <div class="plain-text">
@@ -482,8 +486,10 @@
             </div>
 
             <div class="address-row">
+                <div class="proba"> 
                 <div class="address-icon">
                     <img class="add-icon" src="../B Creative/Kontakt ikonice/telephone.png">
+                </div>
                 </div>
                 <div class="address-text">
                     <div class="plain-text">
@@ -499,7 +505,82 @@
 </div> <!--contact flex container kraj-->
 
  </div> <!--contact section kraj-->
-    
+
+   
+<!--FOOTER-->
+
+<div class="footer-section">
+    <div class="footer-row-one"> <!--ROW 1-->
+                <div class="flex-package-three">  
+                    <div class="digital-agency">
+                        <p class="footer-title"><span class="orange-footer">BE CREATIVE</span> DIGITAL AGENCY</p>
+                        <p class="footer-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto itaque fuga ipsam nam a vel, vero laborum maxime fugit natus, nisi ducimus! Iure.</p>
+                        <div class="footer-icon">
+                            <a href="#">
+                                <img class="footer-logo" src="../B Creative/8. FOOTER/logo b-creative-02.svg">
+                            </a>
+                        </div>
+                    </div> <!--digital-agency kraj-->
+                </div>
+                <div class="flex-package-two"> 
+                    <div class="footer-menu">
+                        <ul class="navbar-footer" id="nav-foot">
+                            <li class="navbar-footer-item">
+                                <a href="#pocetna">POČETNA</a>
+                            </li>
+                            <li class="navbar-footer-item">
+                                <a href="#o-nama">O NAMA</a>
+                            </li>
+                            <li class="navbar-footer-item">
+                                <a href="#portfol">PORTFOLIO</a>
+                            </li>
+                            <li class="navbar-footer-item">
+                                <a href="#blog-page">BLOG</a>
+                            </li>
+                            <li class="navbar-footer-item">
+                                <a href="#kontakt-page">KONTAKT</a>
+                            </li>
+                            </ul>
+                    </div> <!--footer-menu kraj-->
+                </div>
+        <div class ="flex-package">  
+                    <div class="newsletter">
+                        <p class="footer-title"><span class="orange-footer">PRETPLATI SE NA NAŠ</span> NEWSLETTER</h5>
+                        <div class="input-newsletter">
+                            <input type="email" name="pretplata" class="email-newsletter" id="n-letter" placeholder="UNESITE VAŠU EMAIL ADRESU">
+                            <button class="newsletter-button">PRETPLATI SE</button>
+                        </div> <!--input-newsletter kraj-->
+        
+                    </div> <!--newsletter kraj-->
+                </div>
+        
+                </div> <!--footer-row-one kraj-->
+
+
+                <div class="footer-row-two">  <!--ROW 2-->
+                    
+                    <div class="footer-down">
+                        <div class="kopirajt">  
+                        Copyright LANACO | All rights reserved
+                         </div>
+                    </div>
+                    <div class="footer-down">
+                        <div class="flat-foot"> 
+                        <a href="#"><i class="flaticon-043-facebook-1"></i></a>
+                        <a href="#"><i class="flaticon-013-twitter-1"></i></a>
+                        <a href="#"><i class="flaticon-034-instagram"></i></a>
+                        <a href="#"><i class="flaticon-031-linkedin"></i></a>
+                        <a href="#">
+                            <img class="footer-logo-right" src="../B Creative/8. FOOTER/logo b-creative-02.svg">
+                        </a>
+                    </div>
+                    
+                    </div>
+                </div>
+                    
+
+
+</div>
 
 
     </div>    <!--Pocetak-->
