@@ -457,11 +457,14 @@ left: 25px;
 }
 
 .footer-icon {
-    float: left;
+    position: absolute;
+    left: 0;
 }
 
 .footer-logo {
-    width: 120px;  
+    width: 120px; 
+    position: absolute;
+    left: -8px;
   
 }
 
@@ -533,7 +536,7 @@ font-weight:lighter;
 }
 
 .flex-package-three {
-    width: 420px;
+    width: 440px;
     height:auto;
     position: relative;
 }
@@ -541,11 +544,11 @@ font-weight:lighter;
 .digital-agency {
     position: absolute;
     width: 380px;
-    left: 12px;
+    left: 13px;
     
 }
 .flex-package-two {
-    width: 280px;
+    width: 240px;
     height:auto;
     position: relative;
 }
@@ -555,7 +558,7 @@ font-weight:lighter;
   
 }
 .flex-package {
-    width: 510px;
+    width: 530px;
     height: 200px;
     position: relative;
 
@@ -564,7 +567,7 @@ font-weight:lighter;
 .newsletter {
     position: absolute;
     width: 490px;
-    left: 15px;
+    left: 27px;
     justify-content: center;
 }
 
