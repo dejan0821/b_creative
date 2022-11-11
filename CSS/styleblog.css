@@ -216,8 +216,9 @@
     margin: auto;
     color:white;
     display: inline-block;
-    letter-spacing: 18px;
+    letter-spacing: 26px;
     padding-bottom: 30px;    
+    font-size: 23px;
 }
 
 .team-box i:hover {
@@ -450,6 +451,7 @@ left: 25px;
 
 .footer-section {
     margin: auto;
+    
 }
 
 .footer-section {
@@ -469,12 +471,13 @@ left: 25px;
 }
 
 .footer-logo-right {
-    width: 100px;
+    width: 95px;
     display: none;
     position:absolute;
     right: 0;
+    bottom: 0;
 }
-
+     
 
 
 
@@ -532,7 +535,8 @@ font-weight:lighter;
 }
 
 .flat-foot i {
-    font-size: 12px;
+    font-size: 13px;
+    padding-left: 32px;
 }
 
 .flex-package-three {
@@ -542,7 +546,7 @@ font-weight:lighter;
 }
 
 .digital-agency {
-    position: absolute;
+    position: relative;
     width: 380px;
     left: 13px;
     
@@ -553,7 +557,7 @@ font-weight:lighter;
     position: relative;
 }
 .footer-menu {
-    position: absolute;
+    position: relative;
     width: 170px;
   
 }
@@ -565,7 +569,7 @@ font-weight:lighter;
 }
 
 .newsletter {
-    position: absolute;
+    position: relative;
     width: 490px;
     left: 27px;
     justify-content: center;
@@ -580,6 +584,7 @@ font-weight:lighter;
     margin-top: 25px;
     line-height: 25px;
     margin-bottom: 15px;
+    position:relative;
 }
 
 .orange-footer {
@@ -608,7 +613,7 @@ font-weight:lighter;
 
 .input-newsletter {
    margin-top: 25px;
-   position:relative;
+   position: relative;
    left: 0;
    width: 100%;
     
@@ -636,6 +641,8 @@ font-weight:lighter;
     padding: 10px;
     background-color: #212121;
     border: 2px solid white;
+    
+    
  
 }
 
@@ -651,6 +658,9 @@ width: 300px;
 
 .footer-icons {
 width: 200px;
+
+
+
 }
 
 .flat-foot a {
